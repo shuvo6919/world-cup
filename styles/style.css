@@ -1,0 +1,247 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+
+nav {
+    background-color: #161616;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+nav h2 {
+    margin-left: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-bar {
+    /* border: 2px solid white; */
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.menu-item {
+    background-image: linear-gradient(136deg, #ff37f2, #405aff);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* main part ------------------------------------------ */
+
+main {
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+/* top banner part ----------------------------- */
+
+.top-banner {
+    /* border: 2px dotted orange; */
+    background: #161616;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    width: 90%;
+    border-radius: 30px;
+}
+
+.top-banner a {
+    text-decoration: none;
+    color: white;
+}
+
+.left {
+    /* border: 2px solid green; */
+    width: 100%;
+
+}
+
+.left p {
+    margin-bottom: 50px;
+}
+
+.left h1 {
+    font-size: 50px;
+}
+
+
+.left-container {
+    padding: 50px;
+}
+
+.button {
+    border-radius: 5px;
+    background: #D00;
+    padding: 10px 20px;
+}
+
+
+.right {
+    /* border: 2px solid green; */
+    width: 100%;
+}
+
+.right img {
+    width: 90%;
+    /* border: 2px solid red; */
+}
+
+
+/* last section part ----------------------------- */
+
+.last-section {
+    width: 90%;
+    display: flex;
+    margin-top: 50px;
+}
+
+
+.side-bar {
+    border-radius: 10px;
+    background: #161616;
+    display: grid;
+    width: 240px;
+    height: 330px;
+
+
+
+}
+
+.button-1 {
+    text-decoration: none;
+    background: white;
+    border-radius: 5px;
+    padding: 20px 30px;
+    margin: 20px;
+    color: black;
+    text-align: center;
+    width: 140px;
+    height: 30px;
+
+}
+
+/* .button-1 :hover, */
+#current {
+    background-color: #D00;
+    color: white;
+}
+
+
+.button-1:active {
+    background: #D00;
+}
+
+.side-bar :hover {
+    background: #D00;
+}
+
+
+.matches,
+.blogs {
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+
+}
+
+.match {
+    text-align: center;
+    /* width: 250px;
+    height: 200px; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgb(156, 150, 150);
+    padding: 20px;
+}
+
+.flag {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* blog website ------------ */
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px rgb(156, 150, 150);
+}
+
+.blog-items {
+    margin: 20px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.comment {
+    display: flex;
+
+    align-items: center;
+}
+
+.comment img {
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+/* footer part ------------------------------------------- */
+
+footer {
+    background-color: #161616;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 20px;
+
+}
+
+footer p {
+    color: #B9B9B9;
+    font-size: 12px;
+}
+
+.footer-element {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 15%;
+    margin-right: 15%;
+
+
+}
